@@ -1,6 +1,7 @@
 package Elementros_Estaticos;
 
 public class Doctor {
+    //al poner o declarar la variable como estatica esta se mantiene para todas las instacias que se generen
     static int id=0;
     String nombre;
     String especialidad;

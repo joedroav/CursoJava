@@ -1,5 +1,9 @@
 package Elementros_Estaticos;
 
+//al realizar un importe de un paquete static se puede acceder al metodo solo con nombrarlo
+
+import static Elementros_Estaticos.ui.UIMenu.*;
+
 public class Main {
     public static void main(String[] args) {
         //Creo el objeto Doctor por primera vez
@@ -11,5 +15,6 @@ public class Main {
         // la secuencia de la variable de la clase
         Doctor myDoctorAnn = new Doctor();
         myDoctorAnn.monstrarId();
+        showMenu();
     }
 }
