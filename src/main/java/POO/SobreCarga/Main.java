@@ -1,8 +1,8 @@
-package POO.Elementros_Estaticos;
+package POO.SobreCarga;
 
 //al realizar un importe de un paquete static se puede acceder al metodo solo con nombrarlo
 
-import POO.Elementros_Estaticos.ui.UIMenu;
+import static POO.SobreCarga.ui.UIMenu.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -15,6 +15,6 @@ public class Main {
         // la secuencia de la variable de la clase
         Doctor myDoctorAnn = new Doctor();
         myDoctorAnn.monstrarId();
-        UIMenu.showMenu();
+        showMenu();
     }
 }

@@ -1,4 +1,4 @@
-package POO.Elementros_Estaticos;
+package POO.Elementos_Estaticos;
 
 public class Doctor {
     //al poner o declarar la variable como estatica esta se mantiene para todas las instacias que se generen

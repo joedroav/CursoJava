@@ -1,4 +1,4 @@
-package POO.Elementros_Estaticos.ui;
+package POO.Elementos_Estaticos.ui;
 
 import java.util.Scanner;
 
