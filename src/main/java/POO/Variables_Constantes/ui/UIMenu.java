@@ -1,13 +1,15 @@
-package Elementros_Estaticos.ui;
+package POO.Variables_Constantes.ui;
+
 
 import java.util.Scanner;
+
 public class UIMenu {
 
-    //para que funcione el siguiente metodo se debe dejar comop public static para
-    //que se pueda acceder desde la clase main
+    public static String[] MONTHS = {"Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"};
+
     public static void showMenu(){
         System.out.println("Welcome to My Appointments");
-        System.out.println("Selecciona la opción deseada");
+        System.out.println("Selecciona la opciÃ³n deseada");
 
         int response = 0;
         do {
@@ -35,9 +37,8 @@ public class UIMenu {
             }
         }while (response != 0);
     }
-    //para que funcione el siguiente metodo se debe dejar comop public static para
-    //que se pueda acceder desde la clase main
-    public static void showPatientMenu(){
+
+    static void showPatientMenu(){
         int response = 0;
         do {
             System.out.println("\n\n");
@@ -52,6 +53,9 @@ public class UIMenu {
             switch (response){
                 case 1:
                     System.out.println("::Book an appointment");
+                    for (int i = 1; i < 4; i++) {
+                        System.out.println(i +". " + MONTHS[i]);
+                    }
                     break;
                 case 2:
                     System.out.println("::My appointments");
